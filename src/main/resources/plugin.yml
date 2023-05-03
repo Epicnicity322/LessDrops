@@ -1,0 +1,13 @@
+api-version: '1.17'
+author: Epicnicity322
+depend: [ EpicPluginLib ]
+description: Nerf mob loot, fortune and looting enchantments, and armors!
+main: com.epicnicity322.lessdrops.LessDrops
+name: LessDrops
+version: 1.0
+
+commands:
+  lessdropsreload:
+    permission: lessdrops.reload
+    description: Reloads LessDrops plugin.
+    aliases: [ ldrl ]
